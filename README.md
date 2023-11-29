@@ -1,1 +1,1 @@
-# cellar-tracker-api-stub
+# cellar-tracker-docker
