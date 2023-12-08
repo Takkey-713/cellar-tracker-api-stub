@@ -25,3 +25,9 @@ services:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
       POSTGRES_DB: cellartracker
+    
+    volumes:
+      - db-data:/var/lib/postgresql/data
+  
+volumes:
+  db-data:
